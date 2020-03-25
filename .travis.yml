@@ -16,11 +16,6 @@ cache:
 git:
   depth: 5
 
-branches:
-  only:
-  - master
-  - stable
-
 script:
   - yarn ci
 
